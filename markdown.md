@@ -1,8 +1,9 @@
-# Blog Post 1
+---
+title:  'Blog Post 1'
+subtitle: '*Shell Script to make starting new projects easier*'
+author: Written by Noah Hardy
+...
 
-*By: Noah Hardy*
-
-## *Shell Script to make starting new projects easier* {#_shell-script-to-make-starting-new-projects-easier_}
 
 ## Code Overview
 
@@ -21,9 +22,9 @@ to use the script and exit with an error.
 
 Next, we use the two commands mkdir and touch -
 
-``` lang-sh
-mkdir -p pathway/
-touch pathway/file.extension
+```sh
+  mkdir -p pathway/
+  touch pathway/file.extension
 ```
 
 to create the needed pathways and files for our project base.
